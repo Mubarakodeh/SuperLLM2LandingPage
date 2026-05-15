@@ -37,7 +37,7 @@ export const LegalPage: React.FC<LegalPageProps> = ({ title, subtitle, lastUpdat
               Legal
             </p>
             <h1
-              className="text-4xl sm:text-5xl font-bold tracking-tight leading-tight mb-4"
+              className="text-4xl sm:text-5xl font-normal tracking-tight leading-tight mb-4"
               style={{ color: colors.text.primary }}
             >
               {title}
