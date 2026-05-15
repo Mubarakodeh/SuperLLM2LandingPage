@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "github": {
+      "enabled": false
+    },
+    "sentry": {
+      "enabled": false
+    }
+  }
+}

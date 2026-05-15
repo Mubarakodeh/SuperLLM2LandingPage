@@ -1,0 +1,56 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <!-- Top spike: red -->
+    <!-- Right spike: blue -->
+    <!-- Bottom spike: green -->
+    <!-- Left spike: yellow -->
+
+    <!-- Radial from top-center: red -->
+    <radialGradient id="g-top" cx="50%" cy="0%" r="70%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#EA4335" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#EA4335" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Radial from right-center: blue -->
+    <radialGradient id="g-right" cx="100%" cy="50%" r="70%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#4285F4" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#4285F4" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Radial from bottom-center: green -->
+    <radialGradient id="g-bottom" cx="50%" cy="100%" r="70%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#34A853" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#34A853" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Radial from left-center: yellow/orange -->
+    <radialGradient id="g-left" cx="0%" cy="50%" r="70%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#FBBC04" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FBBC04" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Base center blend: blue dominant in center-right -->
+    <radialGradient id="g-center" cx="55%" cy="45%" r="55%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#4285F4" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#4285F4" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="star-clip">
+      <path d="M256,16 C230,130 200,160 16,256 C200,352 230,382 256,496 C282,382 312,352 496,256 C312,160 282,130 256,16 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Star shape filled with layered radial gradients -->
+  <g clip-path="url(#star-clip)">
+    <!-- base fill -->
+    <rect width="512" height="512" fill="#4285F4"/>
+    <!-- top red -->
+    <rect width="512" height="512" fill="url(#g-top)"/>
+    <!-- right blue — reinforces existing -->
+    <rect width="512" height="512" fill="url(#g-right)"/>
+    <!-- bottom green -->
+    <rect width="512" height="512" fill="url(#g-bottom)"/>
+    <!-- left yellow -->
+    <rect width="512" height="512" fill="url(#g-left)"/>
+  </g>
+</svg>
