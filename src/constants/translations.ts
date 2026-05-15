@@ -142,7 +142,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
       label: 'How It Works',
       heading: 'Three simple steps.',
       steps: [
-        { num: '01', title: 'Sign Up Once', desc: "Create a Super LLM account, import your other AI's memories, history, and personalise your chats in minutes." },
+        { num: '01', title: 'Sign Up And Personalise', desc: "Create a Super LLM account, import your other AI's memories, history, and personalise your chats in minutes." },
         { num: '02', title: 'Access Every Major AI', desc: 'Switch between ChatGPT, Claude, Gemini, Perplexity and more, all in one chat.' },
         { num: '03', title: 'Use AI Responsibly', desc: 'Your paid plan contributes to tree planting, included automatically.' },
       ],
@@ -248,7 +248,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
       label: 'How It Works',
       heading: 'Three simple steps.',
       steps: [
-        { num: '01', title: 'Sign Up Once', desc: "Create a Super LLM account, import your other AI's memories, history, and personalise your chats in minutes." },
+        { num: '01', title: 'Sign Up And Personalize', desc: "Create a Super LLM account, import your other AI's memories, history, and personalize your chats in minutes." },
         { num: '02', title: 'Access Every Major AI', desc: 'Switch between ChatGPT, Claude, Gemini, Perplexity and more, all in one chat.' },
         { num: '03', title: 'Use AI Responsibly', desc: 'Your paid plan contributes to tree planting, included automatically.' },
       ],

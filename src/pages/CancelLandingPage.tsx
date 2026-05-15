@@ -485,8 +485,10 @@ const CancelLandingContent = () => {
             </RevealSection>
 
             <RevealSection delay={480}>
-              <div className="mt-16">
-                <div style={{ borderTop: `1px solid ${isDark ? 'rgba(255,255,255,0.1)' : 'rgba(12,55,59,0.1)'}` }} />
+              <div
+                className="mt-16 -mx-6 px-6"
+                style={{ backgroundColor: isDark ? 'rgba(98, 255, 132, 0.02)' : 'rgba(98, 255, 132, 0.03)' }}
+              >
                 <div className="flex flex-wrap items-center justify-center gap-10 py-10">
                   {[
                     { src: '/logos/openai.svg', alt: 'OpenAI', currentColor: true },
@@ -517,7 +519,6 @@ const CancelLandingContent = () => {
                     />
                   ))}
                 </div>
-                <div style={{ borderBottom: `1px solid ${isDark ? 'rgba(255,255,255,0.1)' : 'rgba(12,55,59,0.1)'}` }} />
               </div>
             </RevealSection>
           </div>
@@ -832,7 +833,7 @@ const CancelLandingContent = () => {
       <RewardsSection isDark={isDark} colors={colors} t={t} />
 
       {/* Final CTA */}
-      <section className="py-16 sm:py-20 px-6 relative overflow-hidden">
+      <section className="pt-28 pb-32 sm:pt-36 sm:pb-44 px-6 relative overflow-hidden">
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
