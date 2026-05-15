@@ -114,7 +114,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     problem: {
       label: 'The Problem',
-      heading: 'Your AI setup is broken.',
+      heading: 'Your AI setup is broken',
       body1: 'AI is supposed to make life easier. Instead, most people are juggling multiple tools, logins, subscriptions, and bills.',
       body2: 'And almost nobody knows, or sees, the environmental impact behind every prompt.',
       punchline: "This isn't innovation. It's chaos.",
@@ -122,14 +122,14 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     theSwitch: {
       label: 'The Switch',
-      heading: 'Cancel them all.',
+      heading: 'Cancel them all',
       body: 'Super LLM gives you unified access to every major AI model in one clean interface.',
       lines: ['One Login.', 'One Subscription.', 'One Place To Work, Create, And Think.'],
       footnote: 'No more switching apps. No more subscription overload.',
     },
     differentiator: {
       label: 'The Differentiator',
-      heading: 'Now do it responsibly.',
+      heading: 'Now do it responsibly',
       body: 'AI has an environmental cost. Every paid Super LLM subscription contributes to tree-planting programmes - a meaningful, tangible step in the right direction.',
       footnote: 'No extra steps. No complexity. Just responsible AI, built in.',
       cards: [
@@ -140,7 +140,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     howItWorks: {
       label: 'How It Works',
-      heading: 'Three simple steps.',
+      heading: 'Three simple steps',
       steps: [
         { num: '01', title: 'Sign Up And Personalise', desc: "Create a Super LLM account, import your other AI's memories, history, and personalise your chats in minutes." },
         { num: '02', title: 'Access Every Major AI', desc: 'Switch between ChatGPT, Claude, Gemini, Perplexity and more, all in one chat.' },
@@ -163,7 +163,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     rewards: {
       badge: 'Rewards',
-      heading: 'Get Rewarded For Helping Us.',
+      heading: 'Get Rewarded For Helping Us',
       subheading: 'Sign up to our generous Refer a Friend, Influencer and Affiliate Programmes and instantly get 15,000 Super tokens free.',
       cards: [
         { title: 'Referral Programme', desc: 'Earn 15,000 Super tokens for every friend who joins.', cta: 'Contact Us' },
@@ -172,9 +172,9 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
       ],
     },
     cta: {
-      line1: 'One Subscription.',
-      line2: 'Every AI Model.',
-      line3: 'Your Super Power.',
+      line1: 'One Subscription',
+      line2: 'Every AI Model',
+      line3: 'Your Super Power',
       launchingSoon: 'Launching Soon',
       contactUs: 'Contact Us For Enquiries',
     },
@@ -220,7 +220,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     problem: {
       label: 'The Problem',
-      heading: 'Your AI setup is broken.',
+      heading: 'Your AI setup is broken',
       body1: 'AI is supposed to make life easier. Instead, most people are juggling multiple tools, logins, subscriptions, and bills.',
       body2: 'And almost nobody knows, or sees, the environmental impact behind every prompt.',
       punchline: "This isn't innovation. It's chaos.",
@@ -228,14 +228,14 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     theSwitch: {
       label: 'The Switch',
-      heading: 'Cancel them all.',
+      heading: 'Cancel them all',
       body: 'Super LLM gives you unified access to every major AI model in one clean interface.',
       lines: ['One Login.', 'One Subscription.', 'One Place To Work, Create, And Think.'],
       footnote: 'No more switching apps. No more subscription overload.',
     },
     differentiator: {
       label: 'The Differentiator',
-      heading: 'Now do it responsibly.',
+      heading: 'Now do it responsibly',
       body: 'AI has an environmental cost. Every paid Super LLM subscription contributes to tree-planting programs - a meaningful, tangible step in the right direction.',
       footnote: 'No extra steps. No complexity. Just responsible AI, built in.',
       cards: [
@@ -246,7 +246,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     howItWorks: {
       label: 'How It Works',
-      heading: 'Three simple steps.',
+      heading: 'Three simple steps',
       steps: [
         { num: '01', title: 'Sign Up And Personalize', desc: "Create a Super LLM account, import your other AI's memories, history, and personalize your chats in minutes." },
         { num: '02', title: 'Access Every Major AI', desc: 'Switch between ChatGPT, Claude, Gemini, Perplexity and more, all in one chat.' },
@@ -269,7 +269,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     rewards: {
       badge: 'Rewards',
-      heading: 'Get Rewarded For Helping Us.',
+      heading: 'Get Rewarded For Helping Us',
       subheading: 'Sign up to our generous Refer a Friend, Influencer and Affiliate Programs and instantly get 15,000 Super tokens free.',
       cards: [
         { title: 'Referral Program', desc: 'Earn 15,000 Super tokens for every friend who joins.', cta: 'Contact Us' },
@@ -278,9 +278,9 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
       ],
     },
     cta: {
-      line1: 'One Subscription.',
-      line2: 'Every AI Model.',
-      line3: 'Your Super Power.',
+      line1: 'One Subscription',
+      line2: 'Every AI Model',
+      line3: 'Your Super Power',
       launchingSoon: 'Launching Soon',
       contactUs: 'Contact Us For Inquiries',
     },
@@ -326,7 +326,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     problem: {
       label: 'El Problema',
-      heading: 'Tu configuración de IA está rota.',
+      heading: 'Tu configuración de IA está rota',
       body1: 'Se supone que la IA facilita la vida. En cambio, la mayoría de las personas maneja múltiples herramientas, inicios de sesión, suscripciones y facturas.',
       body2: 'Y casi nadie conoce, ni ve, el impacto ambiental detrás de cada consulta.',
       punchline: 'Esto no es innovación. Es caos.',
@@ -334,14 +334,14 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     theSwitch: {
       label: 'El Cambio',
-      heading: 'Cancélalas todas.',
+      heading: 'Cancélalas todas',
       body: 'Super LLM te da acceso unificado a todos los principales modelos de IA en una interfaz limpia.',
       lines: ['Un Solo Inicio De Sesión.', 'Una Sola Suscripción.', 'Un Lugar Para Trabajar, Crear Y Pensar.'],
       footnote: 'No más cambiar de apps. No más exceso de suscripciones.',
     },
     differentiator: {
       label: 'La Diferencia',
-      heading: 'Ahora hazlo responsablemente.',
+      heading: 'Ahora hazlo responsablemente',
       body: 'La IA tiene un coste ambiental. Cada suscripción de pago a Super LLM contribuye a programas de plantación de árboles - un paso significativo y tangible en la dirección correcta.',
       footnote: 'Sin pasos extra. Sin complejidad. Solo IA responsable, integrada.',
       cards: [
@@ -352,7 +352,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     howItWorks: {
       label: 'Cómo Funciona',
-      heading: 'Tres pasos simples.',
+      heading: 'Tres pasos simples',
       steps: [
         { num: '01', title: 'Regístrate Una Vez', desc: 'Crea una cuenta gratuita de Super LLM en minutos.' },
         { num: '02', title: 'Accede A Toda La IA Principal', desc: 'Cambia entre ChatGPT, Claude, Gemini, Perplexity y más, todo en un solo chat.' },
@@ -375,7 +375,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     rewards: {
       badge: 'Recompensas',
-      heading: 'Gana Recompensas Por Ayudarnos.',
+      heading: 'Gana Recompensas Por Ayudarnos',
       subheading: 'Únete a nuestros generosos programas de Referidos, Influencers y Afiliados y obtén instantáneamente 15,000 tokens Super gratis.',
       cards: [
         { title: 'Programa De Referidos', desc: 'Gana 15,000 tokens Super por cada amigo que se una.', cta: 'Contáctanos' },
@@ -384,9 +384,9 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
       ],
     },
     cta: {
-      line1: 'Una Suscripción.',
-      line2: 'Todos Los Modelos De IA.',
-      line3: 'Tu Superpoder.',
+      line1: 'Una Suscripción',
+      line2: 'Todos Los Modelos De IA',
+      line3: 'Tu Superpoder',
       launchingSoon: 'Próximamente',
       contactUs: 'Contáctanos Para Consultas',
     },
@@ -432,7 +432,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     problem: {
       label: 'Le Problème',
-      heading: 'Votre configuration IA est cassée.',
+      heading: 'Votre configuration IA est cassée',
       body1: "L'IA est censée faciliter la vie. Au lieu de cela, la plupart des gens jonglent avec plusieurs outils, connexions, abonnements et factures.",
       body2: "Et presque personne ne connaît, ni ne voit, l'impact environnemental derrière chaque requête.",
       punchline: "Ce n'est pas de l'innovation. C'est le chaos.",
@@ -440,14 +440,14 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     theSwitch: {
       label: 'Le Changement',
-      heading: 'Annulez-les tous.',
+      heading: 'Annulez-les tous',
       body: 'Super LLM vous donne un accès unifié à tous les principaux modèles IA dans une interface épurée.',
       lines: ['Une Seule Connexion.', 'Un Seul Abonnement.', 'Un Endroit Pour Travailler, Créer Et Penser.'],
       footnote: "Fini de changer d'applications. Fini la surcharge d'abonnements.",
     },
     differentiator: {
       label: 'La Différence',
-      heading: 'Faites-le maintenant responsablement.',
+      heading: 'Faites-le maintenant responsablement',
       body: "L'IA a un coût environnemental. Chaque abonnement payant Super LLM contribue à des programmes de plantation d'arbres - une étape significative et tangible dans la bonne direction.",
       footnote: "Pas d'étapes supplémentaires. Pas de complexité. Juste une IA responsable, intégrée.",
       cards: [
@@ -458,7 +458,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     howItWorks: {
       label: 'Comment Ça Marche',
-      heading: 'Trois étapes simples.',
+      heading: 'Trois étapes simples',
       steps: [
         { num: '01', title: 'Inscrivez-Vous Une Fois', desc: 'Créez un compte Super LLM gratuit en quelques minutes.' },
         { num: '02', title: 'Accédez À Toute L\'IA Principale', desc: 'Passez de ChatGPT à Claude, Gemini, Perplexity et plus, tout dans un seul chat.' },
@@ -481,7 +481,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     rewards: {
       badge: 'Récompenses',
-      heading: 'Soyez Récompensé Pour Nous Aider.',
+      heading: 'Soyez Récompensé Pour Nous Aider',
       subheading: 'Inscrivez-vous à nos généreux programmes Parrainage, Influenceurs et Affiliés et obtenez instantanément 15 000 tokens Super gratuits.',
       cards: [
         { title: 'Programme De Parrainage', desc: 'Gagnez 15 000 tokens Super pour chaque ami qui rejoint.', cta: 'Nous Contacter' },
@@ -490,9 +490,9 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
       ],
     },
     cta: {
-      line1: 'Un Abonnement.',
-      line2: 'Tous Les Modèles IA.',
-      line3: 'Votre Super Pouvoir.',
+      line1: 'Un Abonnement',
+      line2: 'Tous Les Modèles IA',
+      line3: 'Votre Super Pouvoir',
       launchingSoon: 'Bientôt Disponible',
       contactUs: 'Contactez-Nous Pour Des Renseignements',
     },
@@ -538,7 +538,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     problem: {
       label: 'Das Problem',
-      heading: 'Ihr KI-Setup ist kaputt.',
+      heading: 'Ihr KI-Setup ist kaputt',
       body1: 'KI soll das Leben einfacher machen. Stattdessen jonglieren die meisten Menschen mit mehreren Tools, Logins, Abonnements und Rechnungen.',
       body2: 'Und fast niemand kennt oder sieht die Umweltauswirkungen hinter jeder Anfrage.',
       punchline: 'Das ist keine Innovation. Das ist Chaos.',
@@ -546,14 +546,14 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     theSwitch: {
       label: 'Der Wechsel',
-      heading: 'Kündigen Sie alle.',
+      heading: 'Kündigen Sie alle',
       body: 'Super LLM bietet Ihnen einheitlichen Zugriff auf alle wichtigen KI-Modelle in einer übersichtlichen Oberfläche.',
       lines: ['Ein Login.', 'Ein Abonnement.', 'Ein Ort Zum Arbeiten, Erstellen Und Denken.'],
       footnote: 'Kein App-Wechsel mehr. Keine Abonnement-Überlastung mehr.',
     },
     differentiator: {
       label: 'Das Unterscheidungsmerkmal',
-      heading: 'Jetzt verantwortungsvoll handeln.',
+      heading: 'Jetzt verantwortungsvoll handeln',
       body: 'KI hat Umweltkosten. Jedes bezahlte Super LLM-Abonnement trägt zu Baumpflanzprogrammen bei - ein bedeutungsvoller, greifbarer Schritt in die richtige Richtung.',
       footnote: 'Keine zusätzlichen Schritte. Keine Komplexität. Nur verantwortungsvolle KI, integriert.',
       cards: [
@@ -564,7 +564,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     howItWorks: {
       label: 'Wie Es Funktioniert',
-      heading: 'Drei einfache Schritte.',
+      heading: 'Drei einfache Schritte',
       steps: [
         { num: '01', title: 'Einmal Registrieren', desc: 'Erstellen Sie in wenigen Minuten ein kostenloses Super LLM-Konto.' },
         { num: '02', title: 'Zugriff Auf Alle Wichtigen KIs', desc: 'Wechseln Sie zwischen ChatGPT, Claude, Gemini, Perplexity und mehr, alles in einem Chat.' },
@@ -587,7 +587,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     },
     rewards: {
       badge: 'Belohnungen',
-      heading: 'Werden Sie Für Ihre Hilfe Belohnt.',
+      heading: 'Werden Sie Für Ihre Hilfe Belohnt',
       subheading: 'Melden Sie sich für unsere großzügigen Empfehlungs-, Influencer- und Partnerprogramme an und erhalten Sie sofort 15.000 Super-Token kostenlos.',
       cards: [
         { title: 'Empfehlungsprogramm', desc: 'Verdienen Sie 15.000 Super-Token für jeden Freund, der beitritt.', cta: 'Kontaktieren Sie Uns' },
@@ -596,9 +596,9 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
       ],
     },
     cta: {
-      line1: 'Ein Abonnement.',
-      line2: 'Alle KI-Modelle.',
-      line3: 'Ihre Superkraft.',
+      line1: 'Ein Abonnement',
+      line2: 'Alle KI-Modelle',
+      line3: 'Ihre Superkraft',
       launchingSoon: 'Demnächst Verfügbar',
       contactUs: 'Kontaktieren Sie Uns Für Anfragen',
     },
