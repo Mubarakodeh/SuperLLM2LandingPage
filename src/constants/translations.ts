@@ -156,9 +156,9 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
         'Personalise All Your AI Chats Easily',
         'Save Up To 50% Per Month',
         'Always Access The Latest Models',
-        'Transparent Usage & Impact Tracking',
+        'Transparent Token Usage And Sustainability Reporting',
         'Plant Trees To Offset Your Carbon Emissions',
-        'Enterprise-Grade Privacy & Security',
+        'Enterprise-Grade Privacy And Security',
       ],
     },
     rewards: {
@@ -262,9 +262,9 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
         'Personalize All Your AI Chats Easily',
         'Save Up To 50% Per Month',
         'Always Access The Latest Models',
-        'Transparent Usage & Impact Tracking',
+        'Transparent Token Usage And Sustainability Reporting',
         'Plant Trees To Offset Your Carbon Emissions',
-        'Enterprise-Grade Privacy & Security',
+        'Enterprise-Grade Privacy And Security',
       ],
     },
     rewards: {
