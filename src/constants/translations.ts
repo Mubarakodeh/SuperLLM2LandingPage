@@ -615,6 +615,3 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     shareToast: 'Nachricht kopiert - fügen Sie sie ein, wenn Sie Ihren Beitrag öffnen',
   },
 };
-
-
-export { TRANSLATIONS }
