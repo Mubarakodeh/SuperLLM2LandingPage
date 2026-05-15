@@ -100,7 +100,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
       subHeadingUnderline: 'Save',
       subHeadingRest: ' Time, Money And The Planet.',
       body1: "Super LLM is the world's first personalised and sustainable all-in-one AI platform - a super place for all your AI.",
-      body2: "It's the simplest, fastest, safest, cheapest, and greenest way to use every leading AI Large Language Model, responsibly.",
+      body2: "It's the simplest, fastest, safest, cheapest, and greenest way to use every leading AI Large Language Model, responsibly in one chat.",
       launchingSoon: 'Launching Soon',
       contactUs: 'Contact Us For Enquiries',
       bullets: [
@@ -142,7 +142,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
       label: 'How It Works',
       heading: 'Three simple steps.',
       steps: [
-        { num: '01', title: 'Sign Up Once', desc: 'Create a free Super LLM account in minutes.' },
+        { num: '01', title: 'Sign Up Once', desc: "Create a Super LLM account, import your other AI's memories, history, and personalise your chats in minutes." },
         { num: '02', title: 'Access Every Major AI', desc: 'Switch between ChatGPT, Claude, Gemini, Perplexity and more, all in one chat.' },
         { num: '03', title: 'Use AI Responsibly', desc: 'Your paid plan contributes to tree planting, included automatically.' },
       ],
@@ -206,7 +206,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
       subHeadingUnderline: 'Save',
       subHeadingRest: ' Time, Money, And The Planet.',
       body1: "Super LLM is the world's first personalized and sustainable all-in-one AI platform - a super place for all your AI.",
-      body2: "It's the simplest, fastest, safest, most affordable, and greenest way to use every leading AI Large Language Model, responsibly.",
+      body2: "It's the simplest, fastest, safest, cheapest, and greenest way to use every leading AI Large Language Model, responsibly in one chat.",
       launchingSoon: 'Launching Soon',
       contactUs: 'Contact Us For Inquiries',
       bullets: [
@@ -248,7 +248,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
       label: 'How It Works',
       heading: 'Three simple steps.',
       steps: [
-        { num: '01', title: 'Sign Up Once', desc: 'Create a free Super LLM account in minutes.' },
+        { num: '01', title: 'Sign Up Once', desc: "Create a Super LLM account, import your other AI's memories, history, and personalise your chats in minutes." },
         { num: '02', title: 'Access Every Major AI', desc: 'Switch between ChatGPT, Claude, Gemini, Perplexity and more, all in one chat.' },
         { num: '03', title: 'Use AI Responsibly', desc: 'Your paid plan contributes to tree planting, included automatically.' },
       ],
