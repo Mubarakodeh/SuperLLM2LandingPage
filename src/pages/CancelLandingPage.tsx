@@ -484,45 +484,46 @@ const CancelLandingContent = () => {
               </div>
             </RevealSection>
 
-            <RevealSection delay={480}>
-              <div
-                className="mt-16 -mx-6 px-6"
-                style={{ backgroundColor: isDark ? 'rgba(98, 255, 132, 0.02)' : 'rgba(98, 255, 132, 0.03)' }}
-              >
-                <div className="flex flex-wrap items-center justify-center gap-10 py-10">
-                  {[
-                    { src: '/logos/openai.svg', alt: 'OpenAI', currentColor: true },
-                    { src: '/logos/claude.svg', alt: 'Claude', currentColor: false },
-                    { src: '/logos/gemini.png', alt: 'Gemini', currentColor: false },
-                    { src: '/logos/copilot-color.svg', alt: 'Copilot', currentColor: false },
-                    { src: '/logos/perplexity-color.svg', alt: 'Perplexity', currentColor: false },
-                    { src: '/logos/xai.svg', alt: 'Grok', currentColor: true },
-                    { src: '/logos/deepseek-color.svg', alt: 'DeepSeek', currentColor: false },
-                  ].map(({ src, alt, currentColor }) => (
-                    <img
-                      key={alt}
-                      src={src}
-                      alt={alt}
-                      title={alt}
-                      style={{
-                        height: '64px',
-                        width: 'auto',
-                        objectFit: 'contain',
-                        opacity: 0.85,
-                        filter: currentColor
-                          ? (isDark ? 'brightness(0) invert(1)' : 'brightness(0)')
-                          : undefined,
-                        transition: 'opacity 0.2s ease',
-                      }}
-                      onMouseEnter={(e) => { (e.currentTarget as HTMLImageElement).style.opacity = '1'; }}
-                      onMouseLeave={(e) => { (e.currentTarget as HTMLImageElement).style.opacity = '0.85'; }}
-                    />
-                  ))}
-                </div>
-              </div>
-            </RevealSection>
           </div>
         </div>
+
+        <RevealSection delay={480}>
+          <div
+            className="mt-16 -mx-6"
+            style={{ backgroundColor: isDark ? 'rgba(98, 255, 132, 0.02)' : 'rgba(98, 255, 132, 0.03)' }}
+          >
+            <div className="flex flex-wrap items-center justify-center gap-10 py-10 px-6">
+              {[
+                { src: '/logos/openai.svg', alt: 'OpenAI', currentColor: true },
+                { src: '/logos/claude.svg', alt: 'Claude', currentColor: false },
+                { src: '/logos/gemini.png', alt: 'Gemini', currentColor: false },
+                { src: '/logos/copilot-color.svg', alt: 'Copilot', currentColor: false },
+                { src: '/logos/perplexity-color.svg', alt: 'Perplexity', currentColor: false },
+                { src: '/logos/xai.svg', alt: 'Grok', currentColor: true },
+                { src: '/logos/deepseek-color.svg', alt: 'DeepSeek', currentColor: false },
+              ].map(({ src, alt, currentColor }) => (
+                <img
+                  key={alt}
+                  src={src}
+                  alt={alt}
+                  title={alt}
+                  style={{
+                    height: '64px',
+                    width: 'auto',
+                    objectFit: 'contain',
+                    opacity: 0.85,
+                    filter: currentColor
+                      ? (isDark ? 'brightness(0) invert(1)' : 'brightness(0)')
+                      : undefined,
+                    transition: 'opacity 0.2s ease',
+                  }}
+                  onMouseEnter={(e) => { (e.currentTarget as HTMLImageElement).style.opacity = '1'; }}
+                  onMouseLeave={(e) => { (e.currentTarget as HTMLImageElement).style.opacity = '0.85'; }}
+                />
+              ))}
+            </div>
+          </div>
+        </RevealSection>
       </section>
 
       {/* Problem */}
