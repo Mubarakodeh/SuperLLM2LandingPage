@@ -195,7 +195,7 @@ const RewardsSection: React.FC<{ isDark: boolean; colors: typeof BRAND_COLORS.da
               {t.rewards.heading}
             </h2>
             <p
-              className="text-base sm:text-lg max-w-2xl mx-auto leading-relaxed"
+              className="text-base max-w-2xl mx-auto leading-relaxed"
               style={{ color: isDark ? 'rgba(255,255,255,0.6)' : colors.text.secondary }}
             >
               {t.rewards.subheading}
@@ -223,13 +223,13 @@ const RewardsSection: React.FC<{ isDark: boolean; colors: typeof BRAND_COLORS.da
                     <Icon className="w-6 h-6" style={{ color: REWARD_GREEN }} />
                   </div>
                   <h3
-                    className="text-sm font-semibold mb-3"
+                    className="text-base font-semibold mb-3"
                     style={{ color: colors.text.primary }}
                   >
                     {title}
                   </h3>
                   <p
-                    className="text-sm leading-relaxed mb-8 flex-1"
+                    className="text-base leading-relaxed mb-8 flex-1"
                     style={{ color: isDark ? 'rgba(255,255,255,0.55)' : colors.text.secondary }}
                   >
                     {desc}
@@ -237,7 +237,7 @@ const RewardsSection: React.FC<{ isDark: boolean; colors: typeof BRAND_COLORS.da
                   <div className="flex gap-2">
                     <a
                       href="mailto:hello@superllm.com"
-                      className="flex-1 text-center py-2.5 rounded-full text-sm font-medium transition-all"
+                      className="flex-1 text-center py-2.5 rounded-full text-base font-medium transition-all"
                       style={{
                         backgroundColor: 'transparent',
                         border: `1px solid ${REWARD_GREEN_ALPHA(0.35)}`,
@@ -451,7 +451,7 @@ const CancelLandingContent = () => {
                 </span>
                 <a
                   href="mailto:hello@superllm.com"
-                  className="text-sm inline-flex items-center gap-1.5 transition-colors"
+                  className="text-base inline-flex items-center gap-1.5 transition-colors"
                   style={{
                     fontWeight: 500,
                     color: isDark ? 'rgba(255,255,255,0.6)' : colors.text.secondary,
@@ -476,7 +476,7 @@ const CancelLandingContent = () => {
                     >
                       <Check className="w-3 h-3" style={{ color: '#62FF84' }} />
                     </div>
-                    <span className="text-sm" style={{ color: isDark ? 'rgba(255,255,255,0.6)' : colors.text.secondary }}>
+                    <span className="text-base" style={{ color: isDark ? 'rgba(255,255,255,0.6)' : colors.text.secondary }}>
                       {point}
                     </span>
                   </div>
@@ -555,7 +555,7 @@ const CancelLandingContent = () => {
                   {t.problem.body2}
                 </p>
                 <p
-                  className="text-lg"
+                  className="text-base"
                   style={{ color: colors.text.primary, fontWeight: 500 }}
                 >
                   {t.problem.punchline}
@@ -580,7 +580,7 @@ const CancelLandingContent = () => {
                         className="w-6 h-6"
                         style={{ color: isDark ? 'rgba(255,255,255,0.3)' : 'rgba(12, 55, 59, 0.4)' }}
                       />
-                      <span className="text-sm font-medium" style={{ color: colors.text.primary }}>
+                      <span className="text-base font-medium" style={{ color: colors.text.primary }}>
                         {label}
                       </span>
                     </div>
@@ -623,7 +623,7 @@ const CancelLandingContent = () => {
 
           <RevealSection delay={80}>
             <p
-              className="text-base sm:text-lg leading-relaxed mb-12"
+              className="text-base leading-relaxed mb-12"
               style={{ color: isDark ? 'rgba(255,255,255,0.6)' : colors.text.secondary }}
             >
               {t.theSwitch.body}
@@ -678,8 +678,8 @@ const CancelLandingContent = () => {
                       >
                         <Icon className="w-5 h-5" style={{ color: '#62FF84' }} />
                       </div>
-                      <p className="text-sm font-semibold mb-2" style={{ color: colors.text.primary }}>{title}</p>
-                      <p className="text-xs leading-relaxed" style={{ color: isDark ? 'rgba(255,255,255,0.5)' : colors.text.secondary }}>
+                      <p className="text-base font-semibold mb-2" style={{ color: colors.text.primary }}>{title}</p>
+                      <p className="text-base leading-relaxed" style={{ color: isDark ? 'rgba(255,255,255,0.5)' : colors.text.secondary }}>
                         {desc}
                       </p>
                     </div>
@@ -709,7 +709,7 @@ const CancelLandingContent = () => {
                   {t.differentiator.body}
                 </p>
                 <p
-                  className="text-sm"
+                  className="text-base"
                   style={{ color: isDark ? 'rgba(255,255,255,0.35)' : colors.text.muted }}
                 >
                   {t.differentiator.footnote}
@@ -849,7 +849,7 @@ const CancelLandingContent = () => {
             <h2 className="heading-h2 mb-2" style={{ color: '#62FF84' }}>
               {t.cta.line2}
             </h2>
-            <h2 className="heading-h2 mb-12" style={{ color: colors.text.primary }}>
+            <h2 className="heading-h2 mb-20" style={{ color: colors.text.primary }}>
               {t.cta.line3}
             </h2>
           </RevealSection>
@@ -872,7 +872,7 @@ const CancelLandingContent = () => {
               </span>
               <a
                 href="mailto:hello@superllm.com"
-                className="text-sm inline-flex items-center gap-1.5 transition-colors"
+                className="text-base inline-flex items-center gap-1.5 transition-colors"
                 style={{
                   fontWeight: 500,
                   color: isDark ? 'rgba(255,255,255,0.6)' : colors.text.secondary,

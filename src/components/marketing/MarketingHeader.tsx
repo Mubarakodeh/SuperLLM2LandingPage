@@ -42,8 +42,7 @@ function useSignInBtn(isDark: boolean) {
     background: isDark ? 'rgba(255,255,255,0.04)' : 'rgba(255,255,255,0.9)',
     border: '1.5px solid #62FF84',
     color: isDark ? 'rgba(255,255,255,0.9)' : '#0c373b',
-    boxShadow: '0 0 10px rgba(98,255,132,0.25), inset 0 0 8px rgba(98,255,132,0.05)',
-    transition: 'box-shadow 0.2s, background 0.15s',
+    transition: 'background 0.15s',
     whiteSpace: 'nowrap' as const,
     lineHeight: 1,
   };
@@ -429,11 +428,7 @@ export const MarketingHeader: React.FC = () => {
             </button>
 
             {/* Launching Soon */}
-            <button
-              style={signBase}
-              onMouseEnter={(e) => Object.assign(e.currentTarget.style, { ...signBase, ...signHover })}
-              onMouseLeave={(e) => Object.assign(e.currentTarget.style, signBase)}
-            >
+            <button style={signBase}>
               {t.launchingSoon}
             </button>
           </div>

@@ -152,7 +152,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
       heading: 'A Super Place For All Your AI',
       subheading: "Everything you need. Nothing you don't.",
       items: [
-        'Multiple AI Subscriptions',
+        'Replace Multiple AI Subscriptions',
         'Personalise All Your AI Chats Easily',
         'Save Up To 50% Per Month',
         'Always Access The Latest Models',
@@ -258,7 +258,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
       heading: 'A Super Place For All Your AI',
       subheading: "Everything you need. Nothing you don't.",
       items: [
-        'Multiple AI Subscriptions',
+        'Replace Multiple AI Subscriptions',
         'Personalize All Your AI Chats Easily',
         'Save Up To 50% Per Month',
         'Always Access The Latest Models',
