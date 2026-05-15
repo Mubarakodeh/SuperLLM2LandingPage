@@ -492,7 +492,7 @@ const CancelLandingContent = () => {
             className="mt-16 -mx-6"
             style={{ backgroundColor: isDark ? 'rgba(98, 255, 132, 0.02)' : 'rgba(98, 255, 132, 0.03)' }}
           >
-            <div className="flex flex-wrap items-center justify-center gap-10 py-10 px-6">
+            <div className="flex flex-wrap items-center justify-center gap-10 py-32 px-6">
               {[
                 { src: '/logos/openai.svg', alt: 'OpenAI', currentColor: true },
                 { src: '/logos/claude.svg', alt: 'Claude', currentColor: false },
