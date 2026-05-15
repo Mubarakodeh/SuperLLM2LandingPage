@@ -354,12 +354,12 @@ export const MarketingHeader: React.FC = () => {
             style={{ textDecoration: 'none' }}
           >
             <div
-              className="w-10 h-10 rounded-lg flex items-center justify-center"
+              className="w-14 h-14 rounded-xl flex items-center justify-center"
               style={{ backgroundColor: 'rgba(98, 255, 132, 0.12)' }}
             >
-              <Zap className="w-5 h-5" style={{ color: '#62FF84' }} />
+              <Zap className="w-8 h-8" style={{ color: '#62FF84' }} />
             </div>
-            <span className="text-lg font-semibold tracking-tight" style={{ color: colors.text.primary }}>
+            <span className="text-2xl font-semibold tracking-tight" style={{ color: colors.text.primary }}>
               Super LLM
             </span>
           </a>

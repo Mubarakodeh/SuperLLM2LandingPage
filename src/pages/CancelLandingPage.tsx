@@ -486,7 +486,8 @@ const CancelLandingContent = () => {
 
             <RevealSection delay={480}>
               <div className="mt-16">
-                <div className="flex flex-wrap items-center justify-center gap-10">
+                <div style={{ borderTop: `1px solid ${isDark ? 'rgba(255,255,255,0.1)' : 'rgba(12,55,59,0.1)'}` }} />
+                <div className="flex flex-wrap items-center justify-center gap-10 py-10">
                   {[
                     { src: '/logos/openai.svg', alt: 'OpenAI', currentColor: true },
                     { src: '/logos/claude.svg', alt: 'Claude', currentColor: false },
@@ -516,6 +517,7 @@ const CancelLandingContent = () => {
                     />
                   ))}
                 </div>
+                <div style={{ borderBottom: `1px solid ${isDark ? 'rgba(255,255,255,0.1)' : 'rgba(12,55,59,0.1)'}` }} />
               </div>
             </RevealSection>
           </div>
