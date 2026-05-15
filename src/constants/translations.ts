@@ -109,7 +109,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
         'Use ChatGPT, Copilot, Gemini, Claude, Perplexity, Grok, DeepSeek, and many more.',
         'Built with enterprise compliance, security, and safety - for businesses and individuals.',
         'Full multimodal capabilities, including text generation, voice, image, and video generation, and auto LLM selection.',
-        'Offset your carbon emissions by automatically planting trees every month, and enjoy other super rewards.',
+        'Offset your carbon emissions by automatically planting trees every month, and enjoy other Super rewards.',
       ],
     },
     problem: {
@@ -215,7 +215,7 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
         'Use ChatGPT, Copilot, Gemini, Claude, Perplexity, Grok, DeepSeek, and many more.',
         'Built with enterprise compliance, security, and safety - for businesses and individuals.',
         'Full multimodal capabilities, including text generation, voice, image, and video generation, and auto LLM selection.',
-        'Offset your carbon emissions by automatically planting trees every month, and enjoy other super rewards.',
+        'Offset your carbon emissions by automatically planting trees every month, and enjoy other Super rewards.',
       ],
     },
     problem: {
@@ -615,3 +615,6 @@ export const TRANSLATIONS: Record<LangCode, Translations> = {
     shareToast: 'Nachricht kopiert - fügen Sie sie ein, wenn Sie Ihren Beitrag öffnen',
   },
 };
+
+
+export { TRANSLATIONS }
