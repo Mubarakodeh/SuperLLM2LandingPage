@@ -680,8 +680,8 @@ const CancelLandingContent = () => {
                       >
                         <Icon className="w-5 h-5" style={{ color: '#62FF84' }} />
                       </div>
-                      <p className="text-base font-semibold mb-2" style={{ color: colors.text.primary }}>{title}</p>
-                      <p className="text-base leading-relaxed" style={{ color: isDark ? 'rgba(255,255,255,0.5)' : colors.text.secondary }}>
+                      <p className="text-sm font-semibold mb-2" style={{ color: colors.text.primary }}>{title}</p>
+                      <p className="text-sm leading-relaxed" style={{ color: isDark ? 'rgba(255,255,255,0.5)' : colors.text.secondary }}>
                         {desc}
                       </p>
                     </div>
